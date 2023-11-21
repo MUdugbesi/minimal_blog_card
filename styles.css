@@ -1,0 +1,92 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500&display=swap');
+
+/* body styling */
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #6C727F;
+    height: 1000px;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* main */
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    margin-bottom: 50px;
+    background-color: #FAFAF9;
+    padding-top: 350px;
+}
+
+
+/* container section */
+
+.card_container {
+    width: 350px;
+    height: 380px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+
+    padding: 15px;
+
+}
+
+.btn {
+    margin: 10px 0px 20px 0px;
+}
+
+input {
+    width: 65px;
+    height: 20px;
+    font-size: 0.625rem;
+    border: 1px solid #E6D6FC;
+    background-color: #E6D6FC;
+    border-radius: 20px;
+
+    color: #883AE1;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500;
+
+
+}
+
+.content, footer p{
+    font-family: 'Sora', sans-serif;
+}
+
+.content h1{
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    color: #20293A;
+    letter-spacing: 0.8px;
+}
+.content p, footer p{
+    font-size: 0.875rem;
+    color: #6C727F;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+
+.hr {
+    width: 108%;
+    position: relative;
+    right: 15px;
+    border: 1px solid #FAFAF9;
+}
+
+footer p{
+    font-size: 0.75rem;
+    margin-top: 20px;
+}
